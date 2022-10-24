@@ -1,0 +1,53 @@
+/* ========================
+     typography
+=========================== */
+body {
+   color: white;
+   text-shadow: 2px 1px darkblue;
+   font-size: 1.25rem;
+}
+
+/* ========================
+     commons
+=========================== */
+body {
+   background-color: lightsteelblue;
+}
+
+.box {
+   padding: 1rem;
+   border: 1px solid white;
+   width: calc(100% / 5 - 20px);
+   margin: 10px; /* gutter */
+   background-color: darkcyan;
+}
+/* box responsive */
+@media screen and (min-width: 992px) {
+   .box {
+      width: calc(100% / 8 - 20px);
+   }
+}
+@media screen and (min-width: 1200px) {
+   .box {
+      width: calc(100% / 10 - 20px);
+      padding: 2rem 0;
+   }
+
+   body {
+      font-size: 1.5rem;
+   }
+}
+.box-fizz {
+   background-color: black;
+   color: yellow;
+}
+
+.box-buzz {
+   background-color: greenyellow;
+   color: red;
+}
+
+.box-fizz-buzz {
+   background-color: purple;
+   color: royalblue;
+}
